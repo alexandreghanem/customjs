@@ -1,0 +1,110 @@
+/* ---- Header ---- */
+.rst-header {
+    width: 100%;
+    height: 80px;
+}
+
+.header-logo {
+    display: block;
+    float: left;
+    position: relative;
+    width: 226px;
+    height: 75px;
+    margin-top: 5px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-baseline {
+    font-family: 'Arial', sans-serif;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+    font-weight: normal;
+}
+
+.header-links {
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    margin: 14px 20px 0 0;
+}
+
+.header-links ul {
+    display: inline-block;
+    float: right;
+}
+
+.header-links ul li {
+    list-style: none inside;
+    display: inline-block;
+    zoom: 1;
+    width: 80px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 2px;
+}
+
+.header-links ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* ---- Content ---- */
+.rst-box {
+    float: left;
+    height: 100%;
+    overflow:hidden;
+}
+
+.rst-box-left {
+    float: left;
+    width: 60%;
+}
+
+.rst-box-right {
+    float: right;
+    width: 40%;
+}
+
+.rst-box-header {
+    position: relative;
+    background-color: #DDD;
+    color: white;
+}
+
+.rst-box-content {
+    background-color: #CCC;
+    background-repeat: no-repeat;
+    overflow-x: hidden;    
+    min-height: 300px;
+}
+
+/* ---- Footer ---- */
+.rst-footer {
+    background-color: #e6e6e6;
+    background-image: url('../images/footer.jpg');
+    background-position: top;
+    background-repeat: repeat-x;
+    bottom: 0;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+.rst-footer h2{
+    line-height: 40px;
+    padding-left: 3%;
+    font-size: 16px;
+    font-weight: normal;
+    float: left;
+}
+
+.rst-footer .highlight{
+    color: #4A9B88;
+}
